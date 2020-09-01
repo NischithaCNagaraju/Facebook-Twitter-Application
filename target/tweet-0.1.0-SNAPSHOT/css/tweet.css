@@ -1,0 +1,122 @@
+body {margin:0;
+      background-color: #f7d0e0; }
+
+.topnav {
+  overflow: hidden;
+  background-color: teal;
+  font-family: "Lucida Grande"
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #adbd53;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #adbd53;
+    color: white;
+}
+
+.button {
+    background-color: #d44a83;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 254px;
+    margin: -20px -50px; 
+    top:50%; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.popup-content {
+    background-color:#ebf2fa;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*TextArea*/
+.textarea {
+    margin: 0px; 
+    height: 60px; 
+    width: 289px; 
+    padding: 10px 42px 58px 20px;
+    z-index: auto; 
+    position: relative; 
+    line-height: normal; 
+    font-size: 13.3333px; 
+    transition: none; 
+    background: transparent !important;
+}
+
+.button {
+	border-radius: 12px;
+  	transition-duration: 0.4s;
+  	color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: teal;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.user_button{
+	    background-color: thistle;
+    border-radius: 8px;
+}
+	
+
